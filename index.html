@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Face F1 2d Game</title>
+    <link rel="stylesheet" href="./css/start.css" />
+    <link rel="icon" type="image/png" href="../images/clipart3177288.png" />
+  </head>
+  <body>
+    <div class="box">
+      <video
+        src="./images/Untitled video - Made with Clipchamp (2).mp4"
+        controls
+        autoplay
+        width="1900rem"
+        height="1100rem"
+      ></video>
+      <div class="container">
+        <div class="radio-wrapper my">
+          <input type="radio" id="value-1" name="btn" class="input" />
+          <div class="btn">
+            <span aria-hidden="">_</span
+            ><a href="./pages/index.html">Start the game</a>
+            <span aria-hidden="" class="btn__glitch">Start the game</span>
+            <label class="number">r1</label>
+          </div>
+        </div>
+
+        <div class="flex-class">
+          <div class="radio-wrapper">
+            <input
+              type="radio"
+              checked="true"
+              id="value-2"
+              name="btn"
+              class="input"
+            />
+            <div class="btn">
+              <a href="https://github.com/Elbotir2008/Face-F1-Race-2d-Game.git">
+                <span aria-hidden="">_</span>Code
+              </a>
+              <span aria-hidden="" class="btn__glitch">Code</span>
+              <label class="number">r2</label>
+            </div>
+          </div>
+          <div class="radio-wrapper" id="mostRecord">
+            <input type="radio" id="value-3" name="btn" class="input" />
+            <div class="btn">
+              <span aria-hidden="">_</span>Most Record
+              <span aria-hidden="" class="btn__glitch">Most Record</span>
+              <label class="number">r3</label>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal" id="modal"></div>
+    <div class="flex-modal" id="flexModal">
+      <h1 id="scoreTxt">Score: </h1>
+      <h1 id="levelTxt">Level: </h1>
+      <button class="resetRecord" id="resetRecord">Reset Record</button>
+    </div>
+    <span class="close-modal" id="closeModal">x</span>
+
+    <script src="./js/start.js"></script>
+  </body>
+</html>

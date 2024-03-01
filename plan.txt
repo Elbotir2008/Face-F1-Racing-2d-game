@@ -1,0 +1,4 @@
+2. Break Test in Cars
+6. Open record section then break car or game over
+7. Random set cars in game
+10. Push and Deploy
